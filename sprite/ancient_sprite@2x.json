@@ -502,5 +502,21 @@
     "y": 704,
     "pixelRatio": 2,
     "sdf": false
+  },
+  "dot": {
+    "width": 88,
+    "height": 88,
+    "x": 616,
+    "y": 528,
+    "pixelRatio": 2,
+    "sdf": false
+  },
+  "arrow": {
+    "width": 88,
+    "height": 88,
+    "x": 704,
+    "y": 528,
+    "pixelRatio": 2,
+    "sdf": false
   }
 }
