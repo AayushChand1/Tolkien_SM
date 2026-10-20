@@ -530,7 +530,7 @@
       }
     },
     {
-      "id": "landcover_ice",
+      "id": "landcover_ice_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -544,12 +544,52 @@
         "ice"
       ],
       "paint": {
-        "fill-pattern": "ice",
+        "fill-pattern": "ice_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 9
+    },
+    {
+      "id": "landcover_ice_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "ice"
+      ],
+      "paint": {
+        "fill-pattern": "ice_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 12
+    },
+    {
+      "id": "landcover_ice_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 12,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "ice"
+      ],
+      "paint": {
+        "fill-pattern": "ice_l",
         "fill-antialias": false
       }
     },
     {
-      "id": "landcover_sand",
+      "id": "landcover_sand_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -563,12 +603,52 @@
         "sand"
       ],
       "paint": {
-        "fill-pattern": "sand",
+        "fill-pattern": "sand_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 9
+    },
+    {
+      "id": "landcover_sand_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "sand"
+      ],
+      "paint": {
+        "fill-pattern": "sand_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 12
+    },
+    {
+      "id": "landcover_sand_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 12,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "sand"
+      ],
+      "paint": {
+        "fill-pattern": "sand_l",
         "fill-antialias": false
       }
     },
     {
-      "id": "landcover_grass",
+      "id": "landcover_grass_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -582,12 +662,52 @@
         "grass"
       ],
       "paint": {
-        "fill-pattern": "grass",
+        "fill-pattern": "grass_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 9
+    },
+    {
+      "id": "landcover_grass_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "grass"
+      ],
+      "paint": {
+        "fill-pattern": "grass_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 12
+    },
+    {
+      "id": "landcover_grass_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 12,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "grass"
+      ],
+      "paint": {
+        "fill-pattern": "grass_l",
         "fill-antialias": false
       }
     },
     {
-      "id": "landcover_farmland",
+      "id": "landcover_farmland_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -601,12 +721,52 @@
         "farmland"
       ],
       "paint": {
-        "fill-pattern": "farmland",
+        "fill-pattern": "farmland_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 9
+    },
+    {
+      "id": "landcover_farmland_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "farmland"
+      ],
+      "paint": {
+        "fill-pattern": "farmland_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 12
+    },
+    {
+      "id": "landcover_farmland_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 12,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "farmland"
+      ],
+      "paint": {
+        "fill-pattern": "farmland_l",
         "fill-antialias": false
       }
     },
     {
-      "id": "landcover_rock",
+      "id": "landcover_rock_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -620,12 +780,52 @@
         "rock"
       ],
       "paint": {
-        "fill-pattern": "rock",
+        "fill-pattern": "rock_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 9
+    },
+    {
+      "id": "landcover_rock_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "rock"
+      ],
+      "paint": {
+        "fill-pattern": "rock_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 12
+    },
+    {
+      "id": "landcover_rock_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 12,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "rock"
+      ],
+      "paint": {
+        "fill-pattern": "rock_l",
         "fill-antialias": false
       }
     },
     {
-      "id": "landcover_wetland",
+      "id": "landcover_wetland_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landcover",
@@ -639,7 +839,47 @@
         "wetland"
       ],
       "paint": {
-        "fill-pattern": "wetland",
+        "fill-pattern": "wetland_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 9
+    },
+    {
+      "id": "landcover_wetland_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "wetland"
+      ],
+      "paint": {
+        "fill-pattern": "wetland_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 12
+    },
+    {
+      "id": "landcover_wetland_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 12,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "wetland"
+      ],
+      "paint": {
+        "fill-pattern": "wetland_l",
         "fill-antialias": false
       }
     },
@@ -703,7 +943,7 @@
       }
     },
     {
-      "id": "landuse_residential",
+      "id": "landuse_residential_s",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landuse",
@@ -724,7 +964,61 @@
         false
       ],
       "paint": {
-        "fill-pattern": "houses",
+        "fill-pattern": "houses_s",
+        "fill-antialias": false
+      },
+      "maxzoom": 11
+    },
+    {
+      "id": "landuse_residential_m",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "minzoom": 11,
+      "filter": [
+        "match",
+        [
+          "get",
+          "class"
+        ],
+        [
+          "residential",
+          "suburb",
+          "quarter",
+          "neighbourhood"
+        ],
+        true,
+        false
+      ],
+      "paint": {
+        "fill-pattern": "houses_m",
+        "fill-antialias": false
+      },
+      "maxzoom": 14
+    },
+    {
+      "id": "landuse_residential_l",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "minzoom": 14,
+      "filter": [
+        "match",
+        [
+          "get",
+          "class"
+        ],
+        [
+          "residential",
+          "suburb",
+          "quarter",
+          "neighbourhood"
+        ],
+        true,
+        false
+      ],
+      "paint": {
+        "fill-pattern": "houses_l",
         "fill-antialias": false
       }
     },
