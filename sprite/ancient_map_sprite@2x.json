@@ -207,10 +207,26 @@
   "pixelRatio": 2,
   "sdf": false
  },
+ "mountain_range_m": {
+  "width": 128,
+  "height": 92,
+  "x": 500,
+  "y": 668,
+  "pixelRatio": 2,
+  "sdf": false
+ },
+ "mountain_range_l": {
+  "width": 236,
+  "height": 152,
+  "x": 634,
+  "y": 668,
+  "pixelRatio": 2,
+  "sdf": false
+ },
  "castle": {
   "width": 60,
   "height": 74,
-  "x": 500,
+  "x": 876,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -218,7 +234,7 @@
  "palace": {
   "width": 64,
   "height": 70,
-  "x": 566,
+  "x": 942,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -226,7 +242,7 @@
  "temple_hindu": {
   "width": 52,
   "height": 68,
-  "x": 636,
+  "x": 1012,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -234,7 +250,7 @@
  "temple_buddhist": {
   "width": 52,
   "height": 64,
-  "x": 694,
+  "x": 1070,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -242,7 +258,7 @@
  "church": {
   "width": 44,
   "height": 74,
-  "x": 752,
+  "x": 1128,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -250,7 +266,7 @@
  "mosque": {
   "width": 52,
   "height": 68,
-  "x": 802,
+  "x": 1178,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -258,7 +274,7 @@
  "temple": {
   "width": 56,
   "height": 56,
-  "x": 860,
+  "x": 1236,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -266,7 +282,7 @@
  "monument": {
   "width": 28,
   "height": 64,
-  "x": 922,
+  "x": 1298,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -274,7 +290,7 @@
  "ruins": {
   "width": 64,
   "height": 48,
-  "x": 956,
+  "x": 1332,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -282,40 +298,40 @@
  "battlefield": {
   "width": 56,
   "height": 56,
-  "x": 1026,
-  "y": 668,
+  "x": 0,
+  "y": 826,
   "pixelRatio": 2,
   "sdf": false
  },
  "village": {
   "width": 44,
   "height": 48,
-  "x": 1088,
-  "y": 668,
+  "x": 62,
+  "y": 826,
   "pixelRatio": 2,
   "sdf": false
  },
  "town": {
   "width": 68,
   "height": 52,
-  "x": 1138,
-  "y": 668,
+  "x": 112,
+  "y": 826,
   "pixelRatio": 2,
   "sdf": false
  },
  "city": {
   "width": 92,
   "height": 80,
-  "x": 1212,
-  "y": 668,
+  "x": 186,
+  "y": 826,
   "pixelRatio": 2,
   "sdf": false
  },
  "capital": {
   "width": 100,
   "height": 88,
-  "x": 0,
-  "y": 802,
+  "x": 284,
+  "y": 826,
   "pixelRatio": 2,
   "sdf": false
  }

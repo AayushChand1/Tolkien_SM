@@ -1667,40 +1667,128 @@
         ],
         "text-size": 12,
         "icon-image": [
-          "match",
+          "step",
           [
-            "get",
-            "class"
+            "zoom"
           ],
-          "volcano",
-          "volcano",
-          "mountain"
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            "volcano",
+            "volcano",
+            "mountain"
+          ],
+          9,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            "volcano",
+            "volcano",
+            "mountain_range_m"
+          ],
+          11.5,
+          [
+            "match",
+            [
+              "get",
+              "class"
+            ],
+            "volcano",
+            "volcano",
+            "mountain_range_l"
+          ]
         ],
         "icon-size": [
-          "interpolate",
+          "step",
           [
-            "linear"
+            "zoom"
           ],
           [
-            "coalesce",
+            "interpolate",
             [
-              "to-number",
+              "linear"
+            ],
+            [
+              "coalesce",
               [
-                "get",
-                "ele"
+                "to-number",
+                [
+                  "get",
+                  "ele"
+                ],
+                0
               ],
               0
             ],
-            0
+            0,
+            0.55,
+            2500,
+            0.75,
+            5000,
+            0.95,
+            8000,
+            1.2
           ],
-          0,
-          0.55,
-          2500,
-          0.75,
-          5000,
-          0.95,
-          8000,
-          1.2
+          9,
+          [
+            "interpolate",
+            [
+              "linear"
+            ],
+            [
+              "coalesce",
+              [
+                "to-number",
+                [
+                  "get",
+                  "ele"
+                ],
+                0
+              ],
+              0
+            ],
+            0,
+            0.7,
+            2500,
+            0.8,
+            5000,
+            0.9,
+            8000,
+            1.0
+          ],
+          11.5,
+          [
+            "interpolate",
+            [
+              "linear"
+            ],
+            [
+              "coalesce",
+              [
+                "to-number",
+                [
+                  "get",
+                  "ele"
+                ],
+                0
+              ],
+              0
+            ],
+            0,
+            0.6,
+            2500,
+            0.7,
+            5000,
+            0.8,
+            8000,
+            0.9
+          ]
         ],
         "symbol-sort-key": [
           "-",
@@ -1719,8 +1807,33 @@
         ],
         "text-anchor": "top",
         "text-offset": [
-          0,
-          0.9
+          "step",
+          [
+            "zoom"
+          ],
+          [
+            "literal",
+            [
+              0,
+              0.9
+            ]
+          ],
+          9,
+          [
+            "literal",
+            [
+              0,
+              1.9
+            ]
+          ],
+          11.5,
+          [
+            "literal",
+            [
+              0,
+              2.6
+            ]
+          ]
         ],
         "text-optional": true,
         "icon-padding": 4,
