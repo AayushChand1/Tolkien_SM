@@ -884,6 +884,26 @@
       }
     },
     {
+      "id": "landcover_wood_xs",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 9,
+      "maxzoom": 11.5,
+      "filter": [
+        "==",
+        [
+          "get",
+          "class"
+        ],
+        "wood"
+      ],
+      "paint": {
+        "fill-pattern": "forest_xs",
+        "fill-antialias": false
+      }
+    },
+    {
       "id": "landcover_wood_s",
       "type": "fill",
       "source": "openmaptiles",
