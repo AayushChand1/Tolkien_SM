@@ -47,34 +47,10 @@
   "pixelRatio": 2,
   "sdf": false
  },
- "houses_s": {
-  "width": 96,
-  "height": 96,
-  "x": 150,
-  "y": 518,
-  "pixelRatio": 2,
-  "sdf": false
- },
- "houses_m": {
-  "width": 120,
-  "height": 120,
-  "x": 252,
-  "y": 518,
-  "pixelRatio": 2,
-  "sdf": false
- },
- "houses_l": {
-  "width": 144,
-  "height": 144,
-  "x": 378,
-  "y": 518,
-  "pixelRatio": 2,
-  "sdf": false
- },
  "grass_s": {
   "width": 80,
   "height": 80,
-  "x": 528,
+  "x": 150,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -82,7 +58,7 @@
  "grass_m": {
   "width": 104,
   "height": 104,
-  "x": 614,
+  "x": 236,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -90,7 +66,7 @@
  "grass_l": {
   "width": 128,
   "height": 128,
-  "x": 724,
+  "x": 346,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -98,7 +74,7 @@
  "farmland_s": {
   "width": 48,
   "height": 48,
-  "x": 858,
+  "x": 480,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -106,7 +82,7 @@
  "farmland_m": {
   "width": 72,
   "height": 72,
-  "x": 912,
+  "x": 534,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -114,7 +90,7 @@
  "farmland_l": {
   "width": 96,
   "height": 96,
-  "x": 990,
+  "x": 612,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -122,7 +98,7 @@
  "wetland_s": {
   "width": 64,
   "height": 64,
-  "x": 1092,
+  "x": 714,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -130,7 +106,7 @@
  "wetland_m": {
   "width": 88,
   "height": 88,
-  "x": 1162,
+  "x": 784,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -138,7 +114,7 @@
  "wetland_l": {
   "width": 112,
   "height": 112,
-  "x": 1256,
+  "x": 878,
   "y": 518,
   "pixelRatio": 2,
   "sdf": false
@@ -146,47 +122,47 @@
  "sand_s": {
   "width": 48,
   "height": 48,
-  "x": 0,
-  "y": 668,
+  "x": 996,
+  "y": 518,
   "pixelRatio": 2,
   "sdf": false
  },
  "sand_m": {
   "width": 64,
   "height": 64,
-  "x": 54,
-  "y": 668,
+  "x": 1050,
+  "y": 518,
   "pixelRatio": 2,
   "sdf": false
  },
  "sand_l": {
   "width": 80,
   "height": 80,
-  "x": 124,
-  "y": 668,
+  "x": 1120,
+  "y": 518,
   "pixelRatio": 2,
   "sdf": false
  },
  "rock_s": {
   "width": 80,
   "height": 80,
-  "x": 210,
-  "y": 668,
+  "x": 1206,
+  "y": 518,
   "pixelRatio": 2,
   "sdf": false
  },
  "rock_m": {
   "width": 104,
   "height": 104,
-  "x": 296,
-  "y": 668,
+  "x": 1292,
+  "y": 518,
   "pixelRatio": 2,
   "sdf": false
  },
  "rock_l": {
   "width": 128,
   "height": 128,
-  "x": 406,
+  "x": 0,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -194,7 +170,7 @@
  "ice_s": {
   "width": 48,
   "height": 48,
-  "x": 540,
+  "x": 134,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -202,7 +178,7 @@
  "ice_m": {
   "width": 64,
   "height": 64,
-  "x": 594,
+  "x": 188,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -210,7 +186,7 @@
  "ice_l": {
   "width": 80,
   "height": 80,
-  "x": 664,
+  "x": 258,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -218,7 +194,7 @@
  "mountain": {
   "width": 72,
   "height": 60,
-  "x": 750,
+  "x": 344,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -226,7 +202,7 @@
  "volcano": {
   "width": 72,
   "height": 68,
-  "x": 828,
+  "x": 422,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -234,7 +210,7 @@
  "castle": {
   "width": 60,
   "height": 74,
-  "x": 906,
+  "x": 500,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -242,7 +218,7 @@
  "palace": {
   "width": 64,
   "height": 70,
-  "x": 972,
+  "x": 566,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -250,7 +226,7 @@
  "temple_hindu": {
   "width": 52,
   "height": 68,
-  "x": 1042,
+  "x": 636,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -258,7 +234,7 @@
  "temple_buddhist": {
   "width": 52,
   "height": 64,
-  "x": 1100,
+  "x": 694,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -266,7 +242,7 @@
  "church": {
   "width": 44,
   "height": 74,
-  "x": 1158,
+  "x": 752,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -274,7 +250,7 @@
  "mosque": {
   "width": 52,
   "height": 68,
-  "x": 1208,
+  "x": 802,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -282,7 +258,7 @@
  "temple": {
   "width": 56,
   "height": 56,
-  "x": 1266,
+  "x": 860,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -290,7 +266,7 @@
  "monument": {
   "width": 28,
   "height": 64,
-  "x": 1328,
+  "x": 922,
   "y": 668,
   "pixelRatio": 2,
   "sdf": false
@@ -298,47 +274,47 @@
  "ruins": {
   "width": 64,
   "height": 48,
-  "x": 0,
-  "y": 802,
+  "x": 956,
+  "y": 668,
   "pixelRatio": 2,
   "sdf": false
  },
  "battlefield": {
   "width": 56,
   "height": 56,
-  "x": 70,
-  "y": 802,
+  "x": 1026,
+  "y": 668,
   "pixelRatio": 2,
   "sdf": false
  },
  "village": {
   "width": 44,
   "height": 48,
-  "x": 132,
-  "y": 802,
+  "x": 1088,
+  "y": 668,
   "pixelRatio": 2,
   "sdf": false
  },
  "town": {
   "width": 68,
   "height": 52,
-  "x": 182,
-  "y": 802,
+  "x": 1138,
+  "y": 668,
   "pixelRatio": 2,
   "sdf": false
  },
  "city": {
   "width": 92,
   "height": 80,
-  "x": 256,
-  "y": 802,
+  "x": 1212,
+  "y": 668,
   "pixelRatio": 2,
   "sdf": false
  },
  "capital": {
   "width": 100,
   "height": 88,
-  "x": 354,
+  "x": 0,
   "y": 802,
   "pixelRatio": 2,
   "sdf": false

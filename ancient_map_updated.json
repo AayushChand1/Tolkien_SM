@@ -963,8 +963,8 @@
       }
     },
     {
-      "id": "landuse_residential_s",
-      "type": "fill",
+      "id": "landuse_residential_outline",
+      "type": "line",
       "source": "openmaptiles",
       "source-layer": "landuse",
       "minzoom": 8,
@@ -983,63 +983,17 @@
         true,
         false
       ],
-      "paint": {
-        "fill-pattern": "houses_s",
-        "fill-antialias": false
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       },
-      "maxzoom": 11
-    },
-    {
-      "id": "landuse_residential_m",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "minzoom": 11,
-      "filter": [
-        "match",
-        [
-          "get",
-          "class"
-        ],
-        [
-          "residential",
-          "suburb",
-          "quarter",
-          "neighbourhood"
-        ],
-        true,
-        false
-      ],
       "paint": {
-        "fill-pattern": "houses_m",
-        "fill-antialias": false
-      },
-      "maxzoom": 14
-    },
-    {
-      "id": "landuse_residential_l",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "minzoom": 14,
-      "filter": [
-        "match",
-        [
-          "get",
-          "class"
-        ],
-        [
-          "residential",
-          "suburb",
-          "quarter",
-          "neighbourhood"
-        ],
-        true,
-        false
-      ],
-      "paint": {
-        "fill-pattern": "houses_l",
-        "fill-antialias": false
+        "line-color": "rgba(96, 70, 46, 0.85)",
+        "line-width": 0.9,
+        "line-dasharray": [
+          0.1,
+          2.4
+        ]
       }
     },
     {
