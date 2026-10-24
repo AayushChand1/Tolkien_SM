@@ -1108,6 +1108,14 @@
             "brunnel"
           ],
           "tunnel"
+        ],
+        [
+          "!=",
+          [
+            "get",
+            "class"
+          ],
+          "river"
         ]
       ],
       "layout": {
@@ -1158,6 +1166,14 @@
             "brunnel"
           ],
           "tunnel"
+        ],
+        [
+          "!=",
+          [
+            "get",
+            "class"
+          ],
+          "river"
         ]
       ],
       "layout": {
@@ -1168,6 +1184,133 @@
         "line-color": "rgba(70, 104, 96, 0.45)",
         "line-width": 0.6,
         "line-offset": 3
+      }
+    },
+    {
+      "id": "water_outline_river",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "minzoom": 9,
+      "filter": [
+        "all",
+        [
+          "!=",
+          [
+            "get",
+            "class"
+          ],
+          "swimming_pool"
+        ],
+        [
+          "!=",
+          [
+            "get",
+            "brunnel"
+          ],
+          "tunnel"
+        ],
+        [
+          "==",
+          [
+            "get",
+            "class"
+          ],
+          "river"
+        ]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          9,
+          "rgba(70, 104, 96, 0.7)",
+          12,
+          "rgba(62, 70, 58, 0.85)",
+          14,
+          "rgba(58, 46, 34, 0.9)"
+        ],
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          9,
+          0.35,
+          11,
+          0.55,
+          13,
+          0.9,
+          14,
+          1.2
+        ]
+      }
+    },
+    {
+      "id": "water_outline_river_echo",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        [
+          "!=",
+          [
+            "get",
+            "class"
+          ],
+          "swimming_pool"
+        ],
+        [
+          "!=",
+          [
+            "get",
+            "brunnel"
+          ],
+          "tunnel"
+        ],
+        [
+          "==",
+          [
+            "get",
+            "class"
+          ],
+          "river"
+        ]
+      ],
+      "layout": {
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgba(70, 104, 96, 0.45)",
+        "line-width": 0.6,
+        "line-offset": 3,
+        "line-opacity": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "zoom"
+          ],
+          13,
+          0,
+          14.5,
+          1
+        ]
       }
     },
     {
@@ -1889,32 +2032,6 @@
         ]
       ],
       "layout": {
-        "text-field": [
-          "case",
-          [
-            "has",
-            "name:nonlatin"
-          ],
-          [
-            "get",
-            "name:latin"
-          ],
-          [
-            "coalesce",
-            [
-              "get",
-              "name_en"
-            ],
-            [
-              "get",
-              "name"
-            ]
-          ]
-        ],
-        "text-font": [
-          "IMFellEnglish-Regular"
-        ],
-        "text-size": 12,
         "icon-image": [
           "match",
           [
@@ -1940,20 +2057,7 @@
           ],
           99
         ],
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          1.2
-        ],
-        "text-optional": true,
-        "icon-padding": 5,
-        "text-padding": 3,
-        "text-max-width": 7
-      },
-      "paint": {
-        "text-color": "rgba(58, 40, 24, 1)",
-        "text-halo-color": "rgba(244, 232, 196, 0.92)",
-        "text-halo-width": 1.4
+        "icon-padding": 5
       }
     },
     {
@@ -2143,7 +2247,8 @@
         "text-max-width": 8,
         "text-padding": 3,
         "text-optional": true,
-        "text-letter-spacing": 0.08
+        "text-letter-spacing": 0.08,
+        "text-transform": "uppercase"
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2215,7 +2320,7 @@
         "text-max-width": 8,
         "text-padding": 3,
         "text-optional": true,
-        "text-transform": "none",
+        "text-transform": "uppercase",
         "text-letter-spacing": 0.15
       },
       "paint": {
@@ -2337,7 +2442,9 @@
         ],
         "text-max-width": 8,
         "text-padding": 3,
-        "text-optional": true
+        "text-optional": true,
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.06
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2385,7 +2492,7 @@
         "text-font": [
           "IMFellEnglish-Regular"
         ],
-        "text-size": 12,
+        "text-size": 14,
         "symbol-sort-key": [
           "coalesce",
           [
@@ -2396,15 +2503,8 @@
         ],
         "text-max-width": 8,
         "text-padding": 3,
-        "text-optional": true,
-        "icon-image": "village",
-        "icon-size": 1,
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          1.1
-        ],
-        "icon-padding": 4
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.06
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2452,7 +2552,7 @@
         "text-font": [
           "IMFellEnglish-Regular"
         ],
-        "text-size": 14,
+        "text-size": 16,
         "symbol-sort-key": [
           "coalesce",
           [
@@ -2463,15 +2563,8 @@
         ],
         "text-max-width": 8,
         "text-padding": 3,
-        "text-optional": true,
-        "icon-image": "town",
-        "icon-size": 1,
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          1.05
-        ],
-        "icon-padding": 4
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.06
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2531,7 +2624,7 @@
         "text-font": [
           "IMFellEnglish-Regular"
         ],
-        "text-size": 12,
+        "text-size": 14,
         "symbol-sort-key": [
           "coalesce",
           [
@@ -2542,7 +2635,8 @@
         ],
         "text-max-width": 8,
         "text-padding": 3,
-        "text-optional": true
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.06
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2602,7 +2696,7 @@
         "text-font": [
           "IMFellEnglish-Regular"
         ],
-        "text-size": 13,
+        "text-size": 15,
         "symbol-sort-key": [
           "coalesce",
           [
@@ -2613,7 +2707,8 @@
         ],
         "text-max-width": 8,
         "text-padding": 3,
-        "text-optional": true
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.06
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2672,7 +2767,7 @@
         "text-font": [
           "IMFellEnglish-Regular"
         ],
-        "text-size": 13,
+        "text-size": 16,
         "symbol-sort-key": [
           "coalesce",
           [
@@ -2682,21 +2777,8 @@
           99
         ],
         "text-max-width": 8,
-        "text-optional": true,
-        "icon-image": "city",
-        "icon-size": 0.7,
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          1.35
-        ],
-        "icon-padding": [
-          100,
-          100,
-          100,
-          100
-        ],
-        "text-letter-spacing": 0.1
+        "text-letter-spacing": 0.1,
+        "text-transform": "uppercase"
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
@@ -2755,7 +2837,7 @@
         "text-font": [
           "IMFellEnglish-Regular"
         ],
-        "text-size": 14,
+        "text-size": 17,
         "symbol-sort-key": [
           "coalesce",
           [
@@ -2766,16 +2848,8 @@
         ],
         "text-max-width": 8,
         "text-padding": 3,
-        "text-optional": true,
-        "icon-image": "capital",
-        "text-anchor": "top",
-        "text-offset": [
-          0,
-          1.4
-        ],
-        "icon-padding": 4,
         "text-letter-spacing": 0.2,
-        "icon-size": 0.8
+        "text-transform": "uppercase"
       },
       "paint": {
         "text-color": "rgba(58, 40, 24, 1)",
